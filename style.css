@@ -1,0 +1,94 @@
+.container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #E4CDF1;
+}
+
+.profile-card {
+    width: 350px;
+    background: #fff;
+    position: relative;
+    border-radius: 15px ;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+
+.header {
+    height: 170px;
+    border-radius: 15px 15px 0 0;
+    position: relative;
+}
+
+.header-bg {
+    border-radius: 15px 15px 0 0;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.edit-icon {
+    height: 40px; 
+    position: absolute;
+    top: 0; 
+    right: 0;
+    padding: 8px 8px 0 0;
+}
+
+.avatar {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 50%;
+}
+
+.profile-pic {
+    width: 140px;
+    height: 140px;
+    object-fit: cover;
+    object-position: center top;
+    border-radius: 50%;
+    border:3px solid white;
+}
+
+.user-info {
+    margin-top: 100px;
+    text-align: center;
+    line-height: 1.4;
+}
+
+.social-links {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    padding: 20px;
+    border-radius: 0 0 15px 15px;
+    
+}
+
+.social-link {
+    font-size: 30px;
+    transition: 0.4s ease;
+}
+
+.social-link:hover {
+    transform: translateY(-5px);
+}
+
+.fa-github {
+    color: #909399;
+}
+
+.fa-linkedin {
+    color: #032b6b;
+}
+
+.fa-instagram {
+    color: #833AB4;
+}
+
+.name {
+    font-size: 25px;
+}
